@@ -3,7 +3,7 @@ import argparse
 
 PROJ_NAME = "bitty_hackaton" # If changed make sure to change PROJ_NAME in TCL scripts as well.
 
-i# Change path if necessary.
+# Change path if necessary.
 QUARTUS_SH_EXE = "C:/intelFPGA_lite/23.1std/quartus/bin64/quartus_sh.exe -t " 
 QUARTUS_GUI_EXE = "C:/intelFPGA_lite/23.1std/quartus/bin64/quartus.exe "
 
