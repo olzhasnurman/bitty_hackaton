@@ -16,17 +16,17 @@ def parse_util():
             # ALMs used.
             if "Logic" in s:
                 s = s.split()
-                alm += int(s[5])
+                alm += int(s[5].replace(",",""))
             
             # RAM used.
             elif "Total RAM" in s:
                 s = s.split()
-                ram += int(s[4])
+                ram += int(s[4].replace(",",""))
 
             # DSP used.
             elif "Total DSP" in s:
                 s = s.split()
-                ram += int(s[4])
+                dsp += int(s[4].replace(",",""))
 
             s = f.readline()
         f.close()
