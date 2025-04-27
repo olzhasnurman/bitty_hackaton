@@ -40,6 +40,11 @@ Before running the script for the first time, you **must** check and potentially
     * Purpose: Path to the main Quartus GUI executable (`quartus.exe`) used for opening the project.
     * **Action:** Verify this path matches your Quartus installation directory and version. Adjust if necessary.
 
+3.  **`TOP_NAME`**:
+    * Default: `"bigger"`
+    * Purpose: The name of the top module in Quartus Project
+    * **Important:** If the name of the top module is different in your design make sure to modify this in `proj.tcl` and `synt.tcl` scripts located in the `./scripts/` directory.
+
 ### 4. Directory Structure
 
 The script expects the following directory structure:
